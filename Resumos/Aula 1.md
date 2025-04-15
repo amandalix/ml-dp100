@@ -132,7 +132,7 @@ ___
 
 Durante este conteúdo, compreendemos os fundamentos da engenharia de prompts. Para ajudá-lo a aprofundar o conhecimento, disponibilizamos a seguir o material complementar contendo os conteúdos e links apresentados no curso:
 
-- Slide: [Trabalhando com Workspaces no Azure Machine Learning.pptx] (https://hermes.dio.me/files/assets/7c71dbc8-1b65-41c6-b264-3bec230f6787.pptx)
+- Slide: [Trabalhando com Workspaces no Azure Machine Learning.pptx](https://hermes.dio.me/files/assets/7c71dbc8-1b65-41c6-b264-3bec230f6787.pptx)
 
 ### Dicas e Links Úteis
 ___
