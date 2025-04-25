@@ -58,7 +58,7 @@ Cada tipo terá parâmetros específicos e modelos específicos para iterar.
 ## Explorar o Machine Learning Automatizado
 ___
 
-> [Lear about AutomatedML](https://learn.microsoft.com/pt-br/azure/machine-learning/tutorial-first-experiment-automated-ml?view=azureml-api-2)
+> [Learn about AutomatedML](https://learn.microsoft.com/pt-br/azure/machine-learning/tutorial-first-experiment-automated-ml?view=azureml-api-2)
 
 - Coluna y do arquivo de exemplo: Indica se um cliente assinou um depósito a prazo fixo > "Assinou ou não assinou"
 - Vários clientes e informações dos clientes
