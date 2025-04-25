@@ -4,7 +4,7 @@
 ## Noções básicas sobre os ambientes
 ---
 
-- Os ambientes definem o contexto necessário para executor código em um destino de computação.
+- Os ambientes definem o contexto necessário para executar código em um destino de computação.
     - Define parâmetros de environment: a versão do python, versão da biblioteca, SO, para executar o modelo sem bug, defazagem, etc.
     - Instala no ambiente para executar o modelo
 - Um ambiente é usado para criar o contâiner do Docker no qual seu código é executado no destino de computação especificado.
@@ -38,13 +38,13 @@
 
 > Custom environments
 
-## Criar ambientes personalizados
+## Criar ambientes personalizados (Custom environments)
 ---
 
 - Imagem de Docker: escolha uma imagem existente de um repositório (público).
-- Contexto de compilação do DOcker: faça referência a um caminho que inclui um Dockerfile e requirements.txt
+- Contexto de compilação do Docker: faça referência a um caminho que inclui um Dockerfile e requirements.txt
 ### Dockerfile
-```
+``` python
 #FROM mcr.microsoft.com/azureml/openmpi4.1.0-ubuntu20.04
 FROM python:3.8
 
@@ -58,7 +58,7 @@ CMD ["bash"]
 
 - Expecificação Conda: faça referência a uma imagem e adicione um arquivo YAML conda que inclua dependências adicionais.
 ### Arquivo YAML do Conda
-```
+```YAML
 name: pydata-example
 
 channels:

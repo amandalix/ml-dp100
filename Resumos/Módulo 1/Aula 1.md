@@ -7,10 +7,7 @@
 
 [Portal Azure](https://portal.azure.com/)
 
-
 - Dar acesso de autorização para uso dos recursos
-
-
 
 ## Entender mais sobre o serviço do Az Machine Learning
 _____
@@ -37,7 +34,7 @@ _____
 
 4. Use o SDK do Python do Azure Machine Learning
 >Python
-```
+```py
 from azure.ai.ml.entities import Workspace
 workspace_namo = "mlw-example"
 ws-basic = Workspace (
@@ -55,13 +52,13 @@ ____
 ## Conceder acesso ao Workspace do Azure ML
 ___
 Três funcões internas gerais
-- Proprietário / Owner : Pode fazer tudo, não tem limite de acessos. Pode dar acesso a terceiros
-- Colaborador : Tem acesso a tudo, mas não pode promover acesso a outros.
-- Leitor: somente pode visualizar o que está sendo feito. Não pode interagir e nem criar.
+- **Proprietário / Owner** : Pode fazer tudo, não tem limite de acessos. Pode dar acesso a terceiros
+- **Colaborador** : Tem acesso a tudo, mas não pode promover acesso a outros.
+- **Leitor**: somente pode visualizar o que está sendo feito. Não pode interagir e nem criar.
 
 Az Machine Learning tem funções específicas
-- Cientista de dados do AzureML : Responsável por criar o processo e modelos de ml
-- Operador de Serviços de Computação : Responsável por infraestrutura / computing
+- **Cientista de dados do AzureML** : Responsável por criar o processo e modelos de ml
+- **Operador de Serviços de Computação** : Responsável por infraestrutura / computing
 
 |Perfil|Descrição|
 |----|----|
@@ -77,23 +74,23 @@ Az Machine Learning tem funções específicas
 ___
 ### Recursos
 
-1. O workspace - O recurso de nível superior do Azure ML.
+1. **Workspace** - O recurso de nível superior do Azure ML.
 
-2.  Recursos de computação
+2. **Recursos de computação**
 >- instâncias de computação
 >- clusters de computação
 >- clusters do Kubernetes
 >- computação anexada
 >- computação sem servidor
 
-3. Armazenamento de dados: Todos os dados são armazenados em armazenamento de dados, que são referências aos serviços de dados do Azure
+3. **Armazenamento de dados**: Todos os dados são armazenados em armazenamento de dados, que são referências aos serviços de dados do Azure
 
 ### Ativos
 
-1. Modelos: é o modelo de machine learning (em geral empacotado em arquivo pickle *.pkl* do Python)
-2. Ambientes / Environments: Específicos para rodar modelos especificar variáveis de ambiente, configurações de software para executar os scripts.
-3. Dados: Usados para acessar facilmente os dados, sem precisar autenticar todas as vezes. Acesso via notebook, direto da workspace, permitindo o consumo do ativo.
-4. Componentes: Reutilizar componentes nos processos de ML, por exemplo, em testes, em notebooks ou no processo de criação do modelo de ML.
+1. **Modelos**: é o modelo de machine learning (em geral empacotado em arquivo pickle *.pkl* do Python)
+2. **Ambientes / Environments**: Específicos para rodar modelos especificar variáveis de ambiente, configurações de software para executar os scripts.
+3. **Dados**: Usados para acessar facilmente os dados, sem precisar autenticar todas as vezes. **Acesso via notebook, direto da workspace, permitindo o consumo do ativo.
+4. **Componentes**: Reutilizar componentes nos processos de ML, por exemplo, em testes, em notebooks ou no processo de criação do modelo de ML.
 
 ## Algortimos e valores de hiperparâmetro com o Auto ML
 ___

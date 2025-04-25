@@ -10,46 +10,46 @@
 - Inicie o Estúdio a partir da página Visão geral no portal Azure > Launch Studio
 - Navegue diretamente para [Azure Machine Learning Studio](https://ml.azure.com)
 
-1. Home
-2. Catálogo
+1. **Home**
+2. **Catálogo**
 
 #### Authoring
 
-1. Notebooks
-2. Automated ML: escolhe o melhor algoritmo para o modelo e iterar sobre os hiperparâmetros para maximizar a performance do algoritmo. O melhor é estudar em cima de cada modelo/algoritmo para entender qual o melhor para cada modelo.
-3. Designer: Alguns modelos default e você pode criar fluxo de ML com drag and drop.
-4. Prompt Flow: cria fluxo da parte de prompts LLM
+1. **Notebooks**
+2. **Automated ML**: escolhe o melhor algoritmo para o modelo e iterar sobre os hiperparâmetros para maximizar a performance do algoritmo. **O melhor é estudar em cima de cada modelo/algoritmo para entender qual o melhor para cada modelo.
+3. **Designer**: Alguns modelos default e você pode criar fluxo de ML com drag and drop.
+4. **Prompt Flow**: cria fluxo da parte de prompts LLM
 
 #### Assets
 
-1. Data: dados utilizados
-2. Jobs: Jobs criados e em execução
-3. Components: componentes de código ou outros modelos
-4. Pipelines
-5. Environment: Quais os componentes que precisa que rode o modelo, sistema operacional, parâmetros do python, biblioteca, descrição do ambiente, ou default.
-6. Models: Quando processa o modelo ele aparece em Models.
-7. Endpoint: Fazer chamada para o modelo neste endpoint
+1. **Data**: dados utilizados
+2. **Jobs**: Jobs criados e em execução
+3. **Components**: componentes de código ou outros modelos
+4. **Pipelines**
+5. **Environment**: Quais os componentes que precisa que rode o modelo, sistema operacional, parâmetros do python, biblioteca, descrição do ambiente, ou default.
+6. **Models**: Quando processa o modelo ele aparece em Models.
+7. **Endpoint**: Fazer chamada para o modelo neste endpoint
 
 #### Manage
 
-1. Compute: Instâncias, clusters, kubernetes, attach compute ou serverless
-2. Monitoring
-3. Data Labeling: Label nas informações
-4. Linked Services
-5. Connections
+1. **Compute**: Instâncias, clusters, kubernetes, attach compute ou serverless
+2. **Monitoring**
+3. **Data Labeling**: Label nas informações
+4. **Linked Services**
+5. **Connections**
 
 ## Explorar SDK do Python
 ---
 
 1. Instalar o SDK do Python (biblioteca)
 
-```
+```python
 pip install azure-ai-ml
 ```
 
 2. Conectar-se ao workspace
 
-```
+```py
 from azure.ai.ml import MLClient
 from azure.identity import DefaultAzureCredential
 
