@@ -99,16 +99,7 @@ Alguns benchmarks comumente utilizados são:
 * Otimize o modelo quando quiser melhorar o formato, o estilo ou a fala da resposta, maximizando a consistência do comportamento.
 
 
-```mermaid
-quadrantChart
-    title Otimização de Modelo vs Otimização de Contexto
-    x-axis Otimização de modelo --> Como o modelo precisa agir
-    y-axis Otimização de contexto --> O que o modelo precisa saber
-    quadrant-1: Estratégias combinadas
-    quadrant-2: RAG
-    quadrant-3: Engenharia de prompt
-    quadrant-4: Ajuste fino
-```
+
 
 ## Otimize o desempenho para se preparar para a escala
 ---
