@@ -98,8 +98,10 @@ Alguns benchmarks comumente utilizados são:
 
 * Otimize o modelo quando quiser melhorar o formato, o estilo ou a fala da resposta, maximizando a consistência do comportamento.
 
-
-
-
 ## Otimize o desempenho para se preparar para a escala
 ---
+
+* **Por custo:** limites e compensações.
+* **Por métricas:** Qualidade e segurança
+* **Por confiança:** curadaria e compatível
+* **Por tamanho:** SLM (borda) e LLM (nuvem)
