@@ -40,9 +40,9 @@ Para isso, foi utilizado um dataset fictício com dados sobre **vendas de sorvet
 | Mean Squared Error (MSE)      | 131.4361  |
 | Root Mean Squared Error (RMSE)| 11.46456  |
 
-![Gráfico de Resíduos](Project%201/Resultados%201%20-%20residuos.JPG)
+![Gráfico de Resíduos](Resultados%201%20-%20residuos.JPG)
 
-![Resultados em Metrics](Project%201/Resultados%201.JPG)
+![Resultados em Metrics](Resultados%201.JPG)
 
 
 #### 🧠 Interpretação:
@@ -56,7 +56,7 @@ Para isso, foi utilizado um dataset fictício com dados sobre **vendas de sorvet
 
 ### 🔹 Resultados 2 – Designer Pipeline
 
-![Pipeline](Project%201/Resultados%202%20-%20Pipeline.JPG)
+![Pipeline](Resultados%202%20-%20Pipeline.JPG)
 
 | Métrica                        | Valor     |
 |-------------------------------|-----------|
@@ -66,7 +66,7 @@ Para isso, foi utilizado um dataset fictício com dados sobre **vendas de sorvet
 | Relative Squared Error (RSE)  | 0.2301029 |
 | Relative Absolute Error (RAE) | 0.4864980 |
 
-![Resultados 2](Project%201/Resultados%202%20-%20r.JPG)
+![Resultados 2](Resultados%202%20-%20r.JPG)
 
 #### 🧠 Interpretação:
 
