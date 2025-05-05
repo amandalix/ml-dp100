@@ -48,7 +48,8 @@ Para isso, foi utilizado um dataset fictício com dados sobre **vendas de sorvet
 - **RAE e RSE** abaixo de 0.5 mostram que o modelo tem desempenho significativamente melhor que previsões aleatórias.
 - O **gráfico de resíduos** mostra distribuição aleatória, sem padrão evidente, o que é positivo para regressão linear.
 
-![Gráfico de Resíduos](./Resultados%201%20-%20residuos.JPG)
+![Gráfico de Resíduos]("Project 1/Resultados 1 - residuos.JPG")
+
 
 ---
 
