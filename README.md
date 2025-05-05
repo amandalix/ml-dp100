@@ -1,4 +1,4 @@
-# 📊 Regressão Linear com Azure Machine Learning – Projeto para Certificação DP-100
+# 📊 Regressão Linear com Azure Machine Learning – Projeto para Bootcamp DP-100 DIO >>>> Microsoft Certification Challenge #3 DP-100.
 
 Este projeto foi desenvolvido como parte do **Bootcamp da DIO (Digital Innovation One)** voltado para a **certificação DP-100 da Microsoft**. O foco principal é demonstrar na prática o uso da plataforma **Azure Machine Learning** na criação, execução e análise de um experimento de **regressão linear**.
 
@@ -31,42 +31,51 @@ Para isso, foi utilizado um dataset fictício com dados sobre **vendas de sorvet
 
 ## 📈 Resultados e Interpretação
 
-### 🔹 Command Job
+### 🔹 Resultados 1 – Command Job (Script Python)
 
 | Métrica                        | Valor     |
 |-------------------------------|-----------|
-| Root Mean Squared Error (RMSE)| 12.30938  |
-| Mean Absolute Error (MAE)     | 9.765359  |
-| R² (Coef. Determinação)       | 0.7698971 |
-| Relative Squared Error (RSE)  | 0.2301029 |
-| Relative Absolute Error (RAE) | 0.4864980 |
+| Coefficient of Determination (R²) | 0.8159415 |
+| Mean Absolute Error (MAE)     | 9.758208  |
+| Mean Squared Error (MSE)      | 131.4361  |
+| Root Mean Squared Error (RMSE)| 11.46456  |
+
+![Gráfico de Resíduos](Project%201/Resultados%201%20-%20residuos.JPG)
+
+![Resultados em Metrics](Project%201/Resultados%201.JPG)
+
 
 #### 🧠 Interpretação:
 
-- **R² = 0.77:** O modelo explica cerca de **77% da variação** nas vendas de sorvetes.
-- **RMSE e MAE** indicam erros médios em torno de 9 a 12 unidades, com leve presença de outliers.
-- **RAE e RSE** abaixo de 0.5 mostram que o modelo tem desempenho significativamente melhor que previsões aleatórias.
-- O **gráfico de resíduos** mostra distribuição aleatória, sem padrão evidente, o que é positivo para regressão linear.
-
-![Gráfico de Resíduos]("Project 1/Resultados 1 - residuos.JPG")
+- **R² = 0.82:** O modelo conseguiu capturar **82% da variância nas vendas**, mostrando ótimo poder explicativo.
+- **MAE ≈ 9.76 e RMSE ≈ 11.46:** Os erros médios de previsão são baixos, com pouca dispersão.
+- A abordagem visual se mostrou eficiente para experimentação rápida e bons resultados preditivos.
 
 
 ---
 
-### 🔹 Designer Pipeline
+### 🔹 Resultados 2 – Designer Pipeline
+
+![Pipeline](Project%201/Resultados%202%20-%20Pipeline.JPG)
 
 | Métrica                        | Valor     |
 |-------------------------------|-----------|
-| Root Mean Squared Error (RMSE)| 11.46456  |
-| Mean Absolute Error (MAE)     | 9.758208  |
-| Mean Squared Error (MSE)      | 131.4361  |
-| R² (Coef. Determinação)       | 0.8159415 |
+| Coefficient of Determination (R²) | 0.7698971 |
+| Mean Absolute Error (MAE)     | 9.765359  |
+| Root Mean Squared Error (RMSE)| 12.30938  |
+| Relative Squared Error (RSE)  | 0.2301029 |
+| Relative Absolute Error (RAE) | 0.4864980 |
+
+![Resultados 2](Project%201/Resultados%202%20-%20r.JPG)
 
 #### 🧠 Interpretação:
 
-- **R² = 0.82:** Leve melhora em relação ao Command Job, com maior poder explicativo.
-- **Erros (RMSE/MAE)** ligeiramente menores indicam melhor performance.
-- A abordagem visual se mostrou eficiente para fins de experimentação e prototipagem rápida.
+- **R² = 0.77:** Um pouco inferior ao Command Job, ainda assim explica **cerca de 77% da variação** nas vendas.
+- **Erros similares ao pipeline** (MAE ≈ 9.76), mas **com RMSE ligeiramente maior**, sugerindo maior influência de outliers.
+- **RAE e RSE < 0.5**, indicando que o modelo supera uma previsão ingênua (ex: média).
+- O gráfico de resíduos sugere boa distribuição dos erros, sem padrões evidentes — um sinal positivo para regressão linear.
+
+
 
 ---
 
@@ -78,6 +87,23 @@ Para isso, foi utilizado um dataset fictício com dados sobre **vendas de sorvet
 
 ---
 
+## 📁 Estrutura do Projeto no GitHub
+
+Repositório disponível em: [https://github.com/amandalix/ml-dp100](https://github.com/amandalix/ml-dp100)
+
+A estrutura está organizada da seguinte forma:
+
+```bash
+📂 ml-dp100/
+├── 📁 Project 1/         # Dataset de vendas e clima
+    ├── 📁 database/
+    ├── 📁 src/
+├── 📁 Resumos/           # Imagens dos resultados e gráficos (resíduos, métricas)
+└── README.md              # Este arquivo
+```
+
+Durante o curso, fui anotando e consolidando informações que podem ser acessadas em: [Resumos](Resumos)
+
 ## ✅ Recomendações
 
 - Explorar outros algoritmos e técnicas no Azure ML (ex: regressão regularizada, árvores, boosting).
@@ -86,9 +112,8 @@ Para isso, foi utilizado um dataset fictício com dados sobre **vendas de sorvet
 
 ---
 
-## 📚 Sobre a Certificação
 
-Este projeto faz parte do preparo para a **certificação DP-100: Designing and Implementing a Data Science Solution on Azure**, que valida habilidades em:
+Este projeto faz parte do curso **Bootcamp DP-100 DIO >>>> Microsoft Certification Challenge #3 DP-100.**, que valida habilidades em:
 
 - Gerenciamento de recursos no Azure ML
 - Preparação de dados para modelagem
