@@ -29,13 +29,13 @@ Criar um chat que:
 
 Antes de inputar os dados é necessário criar um Hub da Azure AI.
 
-![Project](/inputs/projeto_aifoundry.JPG)
+![Project](inputs/projeto_aifoundry.JPG)
 
 E conectar aos modelos utilizados no projeto:
 
 Nesse caso foram utilizados os modelos **gpt-4o** e **text-embedding-3-large** para executar no chat do Projeto.
 
-![OpenAI](/inputs/endpoints.JPG)
+![OpenAI](inputs/endpoints.JPG)
 
 
 1. **Pré-processamento do PDF**  
@@ -44,7 +44,7 @@ Nesse caso foram utilizados os modelos **gpt-4o** e **text-embedding-3-large** p
 2. **Indexação dos trechos**  
    Cada trecho foi transformado em vetores usando embeddings e armazenado em um vetor de busca (por exemplo, FAISS ou outro).
 
-![Steps](/inputs/steps.JPG)
+![Steps](inputs/steps.JPG)
 
 3. **Perguntas no chat**  
    O usuário faz uma pergunta no chat, que:
@@ -55,5 +55,5 @@ Nesse caso foram utilizados os modelos **gpt-4o** e **text-embedding-3-large** p
 4. **Resposta simulando o autor**  
    O modelo é instruído a responder em primeira pessoa, com o estilo e tom do autor.
 
-![Chat](/inputs/chat.JPG)
+![Chat](inputs/chat.JPG)
 ---
